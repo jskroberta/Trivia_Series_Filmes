@@ -10,23 +10,37 @@
     <h1>Voce sabe sobre filmes e séries de tv?</h1>
     <h2>Neste desafio teste seus conhecimentos sobre Filmes e Televisão</h2>
  <!--https://www.w3schools.com/html/html_form_input_types.asp-->
- <!--Cx de escrava seu nome, para depois-->
+ <!--Cx de escreva seu nome, para depois-->
 
-    Qual o nome do primeiro filme da Pixar?
+    <p>Qual o nome do primeiro filme da Pixar?</p>
     <ul>
-        <li><input type="radio" name="question1">Pixar</input></li>
-        <li><input type="radio" name="question1">Os Incriveis</input></li>
-        <li><input type="radio" name="question1">Soul</input></li>
+        <li><input type="radio" name="question1">Toy Story</li>
+        <li><input type="radio" name="question1">Os Incriveis</li>
+        <li><input type="radio" name="question1">Soul</li>
     </ul>
 
-    <input type="button" value="Ver resposta" onclick="verResposta">
-    <!--chamar o java script-->
+    <button onclick="respPixar()">Ver Resposta</button>
+    <script src="scriptSeries.js"></script>
 
+    <p>Qual o nome da cafeteria de Friends?</p>
     <ul>
-        <li>
-
-        </li>
+        <li><input type="radio" name="question2">Central Park</li>
+        <li><input type="radio" name="question2">Central Perk</li>
+        <li><input type="radio" name="question2">Park Central</li>
     </ul>
+
+    <button onclick="respFriends()">Ver Resposta</button>
+    <script src="scriptSeries.js"></script>
+
+     <p>Qual a série mais assistida atualmente da Netflix?</p>
+     <ul>
+        <li><input type="radio" name="question3">Stranger Things</li>
+        <li><input type="radio" name="question3">Lupin</li>
+        <li><input type="radio" name="question3">Round 6</li>
+     </ul>
+
+     <button onclick="respNetflix()">Ver Resposta</button>
+     <script src="scriptSeries.js"></script>
 
 </body>
 </html>
