@@ -1,0 +1,32 @@
+body {
+    color: aliceblue;
+    background-color: black;
+    background-image: url(triviaNight.jpg);
+}    
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    font-style: italic;
+    font-size: 30px;
+
+}
+li {
+    list-style: none;
+    font-size: 20px;
+    padding: 3px;
+}
+p {
+    font-size: 28px;
+   
+}
+button {
+    width: 100px;
+    height: 28px;
+    font: bold;
+}
+    

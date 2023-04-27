@@ -2,9 +2,9 @@ function respPixar() {
 
     const listaRadios = document.getElementsByName("question1")
     if (listaRadios[0].checked == true) {
-        alert ("Parabens Genio!");
+        alert ("Parabens!");
     } else {
-        alert ("Que burro, da 0 pra ele!!");
+        alert ("Resposta Incorreta!");
     }
 }
 
@@ -12,17 +12,17 @@ function respFriends() {
 
     const listaRadios = document.getElementsByName("question2")
     if (listaRadios[1].checked == true) {
-        alert ("Parabens Monstrão");
+        alert ("Parabens!");
     } else {
-        alert ("Serio mesmo??")
+        alert ("Resposta Incorreta!")
     }
 }
 
 function respNetflix() {
     const listaRadios  = document.getElementsByName("question3");
     if (listaRadios[2].checked == true) {
-        alert ("Até que enfim em!")
+        alert ("Parabens!")
     }else {
-        alert ("Sem comentarios pra você!")
+        alert ("Resposta Incorreta!")
     }
 }
