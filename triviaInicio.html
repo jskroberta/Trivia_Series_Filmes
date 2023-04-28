@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <style>
+        body {
+            font-size: 45px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 150px;
+            background-color: #8E2AFA;
+        }
+    </style>
+   </head>
+<body>
+    <h1>VAMOS JOGAR?</h1>
+    <label style="font-size: 30px;" for="fName">Seu Nome:</label><br>
+    <input type="text" name="fName" required>
+    <button onclick="iniciar();">OK</button>
+    <h2>Bem vindo(a): <span id="saidaNome"></span></h2>
+    
+
+    <script type="application/javascript">
+        function iniciar() {
+            let firstName = document.getElementsByName("fName")[0].value;
+            document.getElementById("saidaNome").innerText= firstName; 
+            //document.getElementById("saidaNome").setAttribute("style", "color: red;")js introduz o css para vc no html//
+            //depois que a pessoa inserir o nome e aperta em OK, ele ira "iniciar" chamando a function iniciar, a variavel fisrtname
+            //pegara esse nome/texto inserido e com o innerText chamando a variavel fisrtName
+        }
+    </script>    
+
+    <a href="TriviaSeries_Filmes.html">
+        <button>JOGAR</button>
+    </a>
+
+
+</body>
+</html>

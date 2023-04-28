@@ -2,6 +2,9 @@ body {
     color: aliceblue;
     background-color: black;
     background-image: url(triviaNight.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }    
 h1 {
     font-style: italic;
