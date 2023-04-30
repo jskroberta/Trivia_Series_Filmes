@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia</title>
     <link rel="stylesheet" href="triviaInicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
       
 </head>
 <body>
     <h1>VAMOS JOGAR?</h1>
-    <label style="font-size: 30px;" for="fName">Seu Nome:</label><br>
+    <label for="fName">Seu Nome:</label>
     <input type="text" name="fName" required>
     <button style="cursor:pointer;"onclick="iniciar();">OK</button>
+
     <h2>Bem vindo(a): <span id="saidaNome"></span></h2>
-    
 
     <script type="application/javascript">
         function iniciar() {
